@@ -1,0 +1,52 @@
+.clients_img {
+    background-image: url();
+    background-repeat: no-repeat;
+    display: block;
+}
+.clients_img-client_tv {
+    width: 130px;
+    height: 45px;
+    background-position: -15px -15px;
+}
+
+.clients_img-clients_changes {
+    width: 130px;
+    height: 40px;
+    background-position: -15px -90px;
+}
+
+.clients_img-clients_compact {
+    width: 130px;
+    height: 40px;
+    background-position: -15px -160px;
+}
+
+.clients_img-clients_finance {
+    width: 130px;
+    height: 47px;
+    background-position: -15px -230px;
+}
+
+.clients_img-clients_lazo {
+    width: 92px;
+    height: 62px;
+    background-position: -15px -307px;
+}
+
+.clients_img-clients_motion {
+    width: 90px;
+    height: 77px;
+    background-position: -15px -399px;
+}
+
+.clients_img-clients_nexomedia {
+    width: 100px;
+    height: 88px;
+    background-position: -15px -506px;
+}
+
+.clients_img-clients_playstudio {
+    width: 113px;
+    height: 51px;
+    background-position: -15px -624px;
+}

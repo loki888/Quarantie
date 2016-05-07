@@ -1,0 +1,27 @@
+.clients_img {background-image: url();
+    background-repeat: no-repeat;
+    display: block;
+}
+.clients_img-binar_number {
+    width: 131px;
+    height: 118px;
+    background-position: -20px -20px;
+}
+
+.clients_img-laptop_icon {
+    width: 122px;
+    height: 117px;
+    background-position: -191px -20px;
+}
+
+.clients_img-phone {
+    width: 70px;
+    height: 118px;
+    background-position: -353px -20px;
+}
+
+.clients_img-wp {
+    width: 118px;
+    height: 118px;
+    background-position: -463px -20px;
+}

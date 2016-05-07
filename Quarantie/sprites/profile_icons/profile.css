@@ -1,0 +1,47 @@
+.profile_icons {
+    background-image: url(../profile_icons/profile_icons.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+.profile_icons-chain {
+    width: 27px;
+    height: 27px;
+    background-position: -13px -13px;
+}
+
+.profile_icons-dialog_icon {
+    width: 30px;
+    height: 29px;
+    background-position: -66px -13px;
+}
+
+.profile_icons-heart {
+    width: 30px;
+    height: 27px;
+    background-position: -122px -13px;
+}
+
+.profile_icons-image_icon {
+    width: 25px;
+    height: 21px;
+    background-position: -178px -13px;
+}
+
+.profile_icons-mail_icon {
+    width: 25px;
+    height: 19px;
+    background-position: -229px -13px;
+}
+
+.profile_icons-play_icon {
+    width: 29px;
+    height: 21px;
+    background-position: -280px -13px;
+}
+
+.profile_icons-search_icon {
+    width: 21px;
+    height: 21px;
+    background-position: -335px -13px;
+}
+

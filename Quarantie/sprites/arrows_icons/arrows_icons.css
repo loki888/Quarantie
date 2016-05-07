@@ -1,0 +1,30 @@
+.arrows {
+    background-image: url(../..);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.arrows-left_arrow {
+    width: 20px;
+    height: 37px;
+    background-position: -15px -15px;
+	background-color: #fff;
+}
+
+.arrows-left_blue_arrow {
+    width: 20px;
+    height: 37px;
+    background-position: -65px -15px;
+}
+
+.arrows-right_arrow {
+    background-position: 68% 0%;
+    top: 40%;
+    right: 2%;
+}
+
+.arrows-right_blue_arrow {
+    width: 20px;
+    height: 37px;
+    background-position: -165px -15px;
+}

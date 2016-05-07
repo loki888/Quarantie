@@ -1,0 +1,29 @@
+.progects_img {
+    background-image: url();
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.progects_img-baby {
+    width: 136px;
+    height: 139px;
+    background-position: -13px -13px;
+}
+
+.progects_img-dating {
+    width: 121px;
+    height: 139px;
+    background-position: -175px -13px;
+}
+
+.progects_img-travel {
+    width: 122px;
+    height: 148px;
+    background-position: -322px -13px;
+}
+
+.progects_img-wedding {
+    width: 139px;
+    height: 132px;
+    background-position: -470px -13px;
+}

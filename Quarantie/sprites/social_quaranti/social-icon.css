@@ -1,0 +1,41 @@
+.social {
+    background-image: url();
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.social-be {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -10px;
+}
+
+.social-facebook {
+    width: 25px;
+    height: 25px;
+    background-position: -55px -10px;
+}
+
+.social-google {
+    width: 25px;
+    height: 25px;
+    background-position: -100px -10px;
+}
+
+.social-in {
+    width: 25px;
+    height: 25px;
+    background-position: -145px -10px;
+}
+
+.social-skype {
+    width: 25px;
+    height: 25px;
+    background-position: -190px -10px;
+}
+
+.social-twitter {
+    width: 25px;
+    height: 25px;
+    background-position: -235px -10px;
+}
