@@ -218,9 +218,9 @@ form {
 .header_search {
 	display: inline-block;
 	width: 70%;
-	height:  2.05em;;
+    height:  2.1em;
 	margin: 0 -5px 0 0;
-	border: 2px solid grey;
+	border: 1px solid grey;
 	border-right: none;
 }
 
@@ -229,8 +229,7 @@ form {
 
 .social {
 	display: inline-block;
-	margin-left: .5%;
-	margin-left: 5%;
+	margin-left: 2%;
 	padding-left: 0;
 	transition: box-shadow .9s;
 	background-image: url(../sprites/social_quaranti/social.png);
@@ -314,6 +313,7 @@ form {
 
 
 .navigation_container {
+	margin-top: 2%;
 	max-height: 6.5em;
 	background-color: #fff;
 	-moz-box-shadow: 0 33px 58px -32px rgba(13, 13, 15, 1);
@@ -529,7 +529,10 @@ HEADER END
 	color:#ccc;
 	margin: 1% 0 1.3% 0;
 }
-
+.white_wrapper {
+	max-width: 1250px;
+	margin: 0 auto;
+}
 /*----Social icons all layout----*/
 .social-be {
 	width: 25px;
@@ -624,8 +627,10 @@ HEADER END
 }
 /*----News icons all layout END----*/
 .section{
-	max-width: 1250px;
+	width: 100vw;     /*--1250px; --*/
+	max-width: 1920px;  
 	margin:0 auto;
+
 }
 /*-----Section headers styling START-----*/
 .section_header {
@@ -639,7 +644,7 @@ HEADER END
 	display: inline-block;
 	width: auto;
 	text-align: center;
-	margin: 3.2em 0 3.2em 42%;
+	margin:2em auto 1.2em auto;
 	z-index: 10;
 	background:#fff;
 }
@@ -653,7 +658,7 @@ footer .section_header {
 	display: block;
 	border-top: 1px solid #ccc;
 	position: relative;
-	top: -7.2em;
+	top: -3.8em;
 }
 /*-----Section headers styling END -----*/
 
@@ -662,23 +667,31 @@ footer .section_header {
 }
 /*-----Service section----------------*/
 .item_header,
-.item_paragraph,
+.item_paragraph
 {
 	text-align: center;
 	font-family: 'AvenirLTStd-Roman', sans-serif;
 }
-.item_header{
+.item_header {
 	font-size: 1.5em;
 	text-transform: uppercase;
 	margin-bottom: 1rem;
 	text-align: center;
 	color:#373645;
 }
-.item_paragraph{
+
+.news_header {
+    text-align: left;
+    margin-top: -8px;
+}
+.item_paragraph {
 	font-size: 0.7em;
 	text-transform: uppercase;
 	margin-top: 1rem;
 	color:#ccc;
+}
+.news_paragraph{
+    text-align: left;
 }
 .item_link{
 	font-size: 1em;
@@ -687,16 +700,22 @@ footer .section_header {
 }
 
 /*-----Projects section---------------*/
-.projects_section{ /*projects section*/
+.section_wrapper {
 	background-image: url(../img/bg_lines_02.png);
+	width: 100%;
+	margin: 0 auto;
+}
+.projects_section{ /*projects section*/
 	padding:5% 0;
+	max-width: 1250px;
+	margin: 0 auto;
 }
 
 .project_item{
-	padding: 0;
+		padding: 0;
     background-color: #fff;
-    max-width: 290px;
-    margin-left: 2%;
+    max-width: 22%;
+    margin-left: 2.4%;
     min-height: 620px;
     border-bottom: 1px solid #373645;
     position:relative;
@@ -724,6 +743,11 @@ footer .section_header {
     text-transform: uppercase;
     color: #fff;
     background-color: #373645;
+		text-align: center;
+}
+.news_btn {
+    margin-left: 62%;
+    margin-bottom: 3%;
 }
 .projects_btn{
 	position: absolute;
@@ -754,9 +778,10 @@ footer .section_header {
 
 /*---------News section------------*/
 .news_bg{
-	background-image: url(../img/bg_lines_02.png);
 	padding-top: 3%;
 	padding-bottom: 3%;
+	margin: 0 auto;
+	max-width: 1250px;
 }
 .news_item{
 	background-color: #fff;
@@ -771,10 +796,22 @@ footer .section_header {
 	border-right: 1px solid #ccc;
 	height:100%;
 }
+.left_side {
+	line-height: 16px;
+}
 .time_wrapper{
 	margin-bottom: 20px;
 	text-transform: uppercase;
 	font-family: 'AvenirLTStd-Roman', sans-serif;
+	line-height: 15px;
+}
+.date {
+	line-height: 54px;
+}
+time {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
 }
 .profile_wrapper,.right_side{
 	float:right;
@@ -785,7 +822,7 @@ footer .section_header {
 }
 .left_side>.profile_icons{
 	display:block;
-	margin-bottom: 75%;
+	margin-bottom: 39%;
 	margin-left: 15%;
 	position:relative;
 	cursor:pointer;
@@ -866,7 +903,251 @@ footer .section_header {
 	color:#ccc;
 }
 
+/*---------Clients section------------*/
+.clients_wrapper {
+	max-width: 1250px;
+	margin: 0 auto;
+}
+.clients_item {
+	float: left;
+    margin-left: 35px;
+}
 
-footer{
+
+
+
+/*--------- Footer  section ------------------------*/
+/*--------- 1.1. Footer top section ------------*/
+footer {
 	background-color: #373645;
 }
+.footer_logo {
+    display: inline-block;
+	width: 17%;
+	min-height: 6.5em;
+	padding-right: 0;
+	background-color: #373645;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.footer_social {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100px;
+    width: 33em;
+    margin: 0 auto;
+    padding-left: 26%;
+}
+
+.footer_form {
+    display: inline-block;
+	width: 100%;
+    height: 2em;
+}
+
+.footer_letter {
+    display: inline-block;
+    width: 80%;
+    height: 2.35em;
+    margin: 0 -5px 0 0;
+    border: 2px solid grey;
+    border-right: none;
+}
+
+.footer_h4 {
+    font-family: 'AvenirNextLTPro-BoldIt';
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #6e9bca;
+    font-weight: 800;
+    line-height: 0.5em;
+    margin-bottom: -0.6em;
+}
+
+.footer_p {
+    font-family: 'AvenirLTStd-Roman';
+    font-size: .99em;
+    color: #e4e4e6;
+    margin-bottom: 0.4em;
+}
+
+.newsletter_wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+/*--------- 1.2. Footer middle section ------------*/
+
+.section_wrapper__footer {
+    background: #373645;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_wrapper {
+    text-align: center;
+}
+
+.img_cover_wrapper img {
+    width: 100%;
+    
+}
+
+.img_cover_wrapper {
+    position: relative;
+    overflow: hidden;
+    cursor:pointer;
+}
+
+
+
+/* -------------------------PROJECTS  ANIMATION--------------------------*/
+.img_cover {
+    width: 100%;
+    height: 100%;
+    background: #e84c3d;
+    opacity: .0;
+    position: absolute;
+    top:0;
+    text-align: center;
+    transition:   top .9s;
+    transition:  opacity 1.2s;
+}
+.img_cover:hover {
+    opacity: .7;
+    overflow: hidden;
+}
+
+.heart, .chain {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    background: #6f9ccb;
+    top: 39%;
+    transition:  background .6s;
+    opacity: 1;
+    left: -100%;
+    cursor: pointer;
+}
+
+.heart:hover,.chain:hover {
+    background:  #373645;
+    opacity: 1;
+}
+.heart:hover{
+    background-image: url(../img/images/heart.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+    z-index: 20;
+    
+}
+.chain:hover {
+    background-image: url(../img/images/chain.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+    z-index: 20;
+  
+}
+
+ .heart{
+    background-image: url(../img/images/heart.png);
+     background-repeat: no-repeat;
+     background-position:center center;
+     z-index: 20;
+     
+}
+.heart>span,.chain>span {
+    color: #fff;
+    font-style: normal;
+    font-family: 'AvenirLTStd-Roman';
+    position: absolute;
+    font-size: 1em;
+    top:121%;
+    right: 33%;
+}
+
+.chain>span {
+
+}
+
+ .chain{
+    background-image: url(../img/images/chain.png);
+     background-repeat: no-repeat;
+     background-position:center center;
+    z-index: 20;
+    
+}
+.img_cover.dating {
+    background: #e84c3d;
+}
+
+.img_cover.weding {
+    background: #9b58b5;
+}
+
+.img_cover.travel{
+    background: #1bbc9b;
+}
+
+.img_cover.baby {
+    background: #3598db;
+}
+
+
+
+.section_header__footer {
+    font-family: 'Avenir-Heavy', sans-serif;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #6e9bca;
+    position: relative;
+    padding: 0 1%;
+    display: inline-block;
+    width: auto;
+    z-index: 20;
+    margin-bottom: 2.7%;
+    background: #373645;
+}
+
+
+
+/* Footer office information & adress */
+.office_city {
+    list-style: none;
+    color: #fff;
+    font-family: 'Avenir-Heavy', sans-serif;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.office_city>li {
+    text-transform:none;
+    font-family: 'AvenirLTStd-Roman' , sans-serif;
+    font-size: 0.8em;
+}
+
+.contacts {
+    margin-top: 4%;
+}
+
+.contacts td:first-child {
+    font-family: 'Avenir-Heavy', sans-serif;
+    font-size: 1.2em;
+    color:#6e9bca;
+}
+.contacts td {
+    padding-right:  0.7em;
+}
+
+.footer_copyright {
+   text-align: center;
+}
+.copyright {
+    color: #fff;
+    font-family: 'AvenirLTStd-Light', sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+}
+
